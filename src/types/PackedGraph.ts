@@ -42,6 +42,7 @@ export interface PackedGraph {
     state: number[]; // cell state id
     area: TypedArray; // cell area
     province: TypedArray; // cell province id
+    region: TypedArray; // cell region id
     routes: Record<number, Record<number, number>>;
   };
   vertices: {
@@ -63,4 +64,5 @@ export interface PackedGraph {
   markers: any[];
   ice: any[];
   provinces: Province[];
+  regions: Region[];
 }

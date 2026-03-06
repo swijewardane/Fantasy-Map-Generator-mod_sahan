@@ -17,3 +17,4 @@ import "./emblem";
 import "./ice";
 import "./markers-generator";
 import "./fonts";
+import "./regions-generator";
